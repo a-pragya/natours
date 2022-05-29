@@ -28,5 +28,14 @@ body {
     url(../img/img/hero.jpg);
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 200px, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+}
+.logo-box {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+.logo {
+  height: 35px;
 }
